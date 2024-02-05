@@ -1,5 +1,5 @@
 import React from 'react'
-import BookingButton from './BookingButton'
+import { BookingButtonAbout } from './BookingButton'
 import aboutImage from '../components/img/pizza_grate.jpg'
 import mapImage from '../components/img/terkep.png'
 import backgroundImage from '../components/img/bg_bottom.jpg'
@@ -73,12 +73,12 @@ const AboutContainerStyles = styled.div`
 
 const About = () =>
   <AboutContainerStyles id="introduction" class="content_panel">
-    <div class="picture">
+    <div className="picture">
       <img src={aboutImage} alt="Grate Pizza" />
     </div>
-    <div class="article">
+    <div className="article">
       <h2>Pizza & Me</h2>
-      <div class="first">
+      <div className="first">
         <p>
           Nem csak 24cm-es, 30cm-es és 45cm-es pizzák kaphatóak 52 féle ízben, hanem olyan
           extravagáns,
@@ -88,12 +88,12 @@ const About = () =>
           számára sokféle ízesítésű palacsinta is készül.
         </p>
       </div>
-      <div class="second">
-        <div class="second_left">
+      <div className="second">
+        <div className="second_left">
 
-          <BookingButton />
+          <BookingButtonAbout />
 
-          <div class="open">
+          <div className="open">
             <p><strong>Nyitvatartás</strong></p>
             <ul>
               <li>
@@ -120,7 +120,7 @@ const About = () =>
             </ul>
           </div>
         </div>
-        <div class="second_right">
+        <div className="second_right">
           <img src={mapImage} alt="Map" />
         </div>
       </div>

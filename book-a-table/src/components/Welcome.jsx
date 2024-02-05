@@ -23,8 +23,8 @@ const WelcomeContainerStyles = styled.div`
 const Welcome = () => {
   return (
     <WelcomeContainerStyles id="welcome">
-      <img class="homeimg" src={welcomeImage} alt="background pizza" width="100%" height="auto" />
-      <h1 class="name">Welcome to Pizza & Me</h1>
+      <img className="homeimg" src={welcomeImage} alt="background pizza" width="100%" height="auto" />
+      <h1 className="name">Welcome to Pizza & Me</h1>
     </WelcomeContainerStyles>
   )
 }

@@ -14,7 +14,7 @@ import styled from 'styled-components'
 const MenuContainerStyles = styled.div`
 .title {
     font-size: 1.5em;
-    margin-top: 2em;
+    margin-top: 3em;
     text-align: center;
     color: orangered;
 }
@@ -78,16 +78,16 @@ const MenuContainerStyles = styled.div`
 const Menu = () => {
   return (
     <MenuContainerStyles>
-      <div id="menu" class="title">
+      <div id="menu" className="title">
         <h2>MENÜ</h2>
       </div>
-      <div class="menu">
+      <div className="menu">
 
-        <div class="box one">
-          <div class="picture">
+        <div className="box one">
+          <div className="picture">
             <img src={pizza1Image} alt="sonka-kukorica" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>SONKA-KUKORICA</h3>
             <p>
               (paradicsomszósz, sonka, kukorica, mozzarella)
@@ -95,11 +95,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box two">
-          <div class="picture">
+        <div className="box two">
+          <div className="picture">
             <img src={pizza2Image} alt="szalámis" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>SZALÁMIS</h3>
             <p>
               (paradicsomszósz, szalámi, mozzarella)
@@ -107,11 +107,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box three">
-          <div class="picture">
+        <div className="box three">
+          <div className="picture">
             <img src={pizza3Image} alt="mediterrán" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>MEDITERRÁN</h3>
             <p>
               (paradicsomszósz, csirkemell, fetasajt, olivabogyó, oregano, mozzarella)
@@ -119,11 +119,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box four">
-          <div class="picture">
+        <div className="box four">
+          <div className="picture">
             <img src={pizza4Image} alt="chili-con-carne" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>CHILI CON CARNE</h3>
             <p>
               (bolognai ragu, bab, kukorica, jalapeno, mozzarella)
@@ -131,11 +131,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box five">
-          <div class="picture">
+        <div className="box five">
+          <div className="picture">
             <img src={pizza5Image} alt="bbq" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>BBQ</h3>
             <p>
               (barbecue-szósz, bacon, csirkemell, hagyma, kaliforniai paprika, mozzarella)
@@ -143,11 +143,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box six">
-          <div class="picture">
+        <div className="box six">
+          <div className="picture">
             <img src={pizza6Image} alt="bivaly" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>BIVALY</h3>
             <p>
               (paradicsomszósz, chiliszósz, kolbász, zöldpaprika, jalapeno, mozzarella)
@@ -155,11 +155,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box seven">
-          <div class="picture">
+        <div className="box seven">
+          <div className="picture">
             <img src={pizza7Image} alt="bolognese" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>BOLOGNESE</h3>
             <p>
               (bolognai ragu, mozzarella)
@@ -167,11 +167,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box eight">
-          <div class="picture">
+        <div className="box eight">
+          <div className="picture">
             <img src={pizza8Image} alt="gyros" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>GYROS</h3>
             <p>
               (gyros-szósz, csirkemell, paradicsomkarika, uborka, lilahagyma, mozzarella)
@@ -179,11 +179,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box nine">
-          <div class="picture">
+        <div className="box nine">
+          <div className="picture">
             <img src={pizza9Image} alt="hawaii" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>HAWAII</h3>
             <p>
               (paradicsomszósz, sonka, ananász, kukorica, mozzarella)
@@ -191,11 +191,11 @@ const Menu = () => {
             <h4>3500 Ft</h4>
           </div>
         </div>
-        <div class="box ten">
-          <div class="picture">
+        <div className="box ten">
+          <div className="picture">
             <img src={pizza0Image} alt="cowboy-menu" />
           </div>
-          <div class="article">
+          <div className="article">
             <h3>COWBOY MENÜ</h3>
             <p>
               (paradicsomszósz, marha, bacon, vöröshagyma, paradicsomkarika, cheddar, mozzarella)

@@ -1,22 +1,17 @@
-import NavContainer from './components/NavContainer';
-import Welcome from './components/Welcome';
-import About from './components/About';
-import Menu from './components/Menu';
+
 import './App.css';
-import BookingButton from './components/BookingButton';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NewPage from './components/NewPage';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <div className="top">
-        <NavContainer />
-      </div>
-      <Welcome />
-      <About />
-      <BookingButton />
-      <Menu />
-      <BookingButton />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<HomePage />} />
+        <Route path="/booking" element={<NewPage />} />
+      </Routes >
+    </Router >
   );
 }
 

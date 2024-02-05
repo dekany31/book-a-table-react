@@ -36,12 +36,14 @@ img{
 const NavContainer = () =>
   <NavContainerStyles>
     <ul>
-      <li><a href="#welcome">Home</a></li>
-      <li><a href="#introduction">About</a></li>
-      <li><a href="#menu">Menu</a></li>
-      <li><a href="./book.html" >Booking</a></li>
+      <li><a href="./#welcome">Home</a></li>
+      <li><a href="./#introduction">About</a></li>
+      <li><a href="./#menu">Menu</a></li>
+      <li><a href="./booking" >Booking</a></li>
     </ul>
-    <img src={logoImage} alt="logo" width="70px" height="110px" />
+    <a href="./#menu">
+      <img src={logoImage} alt="logo" width="70px" height="110px" />
+    </a>
   </NavContainerStyles>
 
 export default NavContainer
